@@ -12,11 +12,11 @@ void selection_sort(int *array, size_t size)
 
 	if (array == NULL)
 		return;
-	for (i = 0; i < size; i++)
+	for (x = 0; x < size; x++)
 	{
-		y = i;
+		y = x;
 		f = 0;
-		for (idx = i + 1; idx < size; idx++)
+		for (idx = x + 1; idx < size; idx++)
 		{
 			if (array[y] > array[idx])
 			{
@@ -24,8 +24,8 @@ void selection_sort(int *array, size_t size)
 				f += 1;
 			}
 		}
-		swp = array[i];
-		array[i] = array[y];
+		swp = array[x];
+		array[x] = array[y];
 		array[y] = swp;
 		if (f != 0)
 			print_array(array, size);
