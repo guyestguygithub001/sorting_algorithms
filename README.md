@@ -1,1 +1,1 @@
-# 0x1B. C - Sorting algorithms & Big O
+sort of sorts # 0x1B. C - Sorting algorithms & Big O notation
