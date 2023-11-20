@@ -3,7 +3,7 @@
 /**
  * swap_ints - Swap two ints in a given array,
  * @a: first int. to be swapped
- * @b: second int. to swapped
+ * @b: second int. to be swapped
  */
 void swap_ints(int *a, int *b)
 {
