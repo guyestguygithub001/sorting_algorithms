@@ -44,7 +44,7 @@ int lumto_partition(int *array, int begin, int stop, int size)
  * @end: right side
  * @size: size of array
  */
- void recursive(int *array, int start, int end, int size)
+void recursive(int *array, int start, int end, int size)
 {
 	if (start < end)
 	{
